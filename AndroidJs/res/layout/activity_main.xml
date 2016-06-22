@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_main"
+    android:orientation="vertical"
+    android:padding="10dp" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp" >
+ 		
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/welcome"
+            android:textSize="20sp" />
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="@string/hint_message"
+            android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:textColor="@color/input_message"
+            android:textColorHint="@color/input_message_hint" />
+ 
+ 
+        <Button
+            android:id="@+id/btnMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@color/btn_message_bg"
+            android:text="@string/btn_message"
+            android:textColor="@color/btn_message" />
+        
+ 
+    </LinearLayout>
+    <WebView
+      android:layout_marginTop="40dp"
+      android:id="@+id/mybrowser"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" />
+</LinearLayout>

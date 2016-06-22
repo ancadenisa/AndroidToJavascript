@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+	<color name="bg_main">#26ae90</color>
+    <color name="white">#ffffff</color>
+    <color name="input_message">#222222</color>
+    <color name="input_message_hint">#999999</color>
+
+    <color name="btn_message">#26ae90</color>
+    <color name="btn_message_bg">#eceef1</color>
+
+ 
+</resources>
